@@ -255,19 +255,19 @@ export default function Home() {
           <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3">
             {[
               {
-                name: "Jordan M.",
+                name: "Sigit A.",
                 quote:
                   "I brought in my vintage Air Jordans that I thought were beyond saving. The team at Kicks Klinik worked magic and now they look almost new!",
                 rating: 5,
               },
               {
-                name: "Samantha K.",
+                name: "Fahmi M.",
                 quote:
-                  "The custom design they created for my sneakers is absolutely stunning. Everyone asks where I got them. Worth every penny!",
+                  "The custom design they created for my sneakers is absolutely stunning. Everyone asks where I got them. Worth every rupiah!",
                 rating: 5,
               },
               {
-                name: "Marcus T.",
+                name: "Abdusalam J.",
                 quote:
                   "Fast service, amazing results. My collection has never looked better. I won't trust my kicks with anyone else.",
                 rating: 5,
