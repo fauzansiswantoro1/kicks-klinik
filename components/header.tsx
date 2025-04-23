@@ -14,7 +14,7 @@ export default function Header() {
           <Shoe className="h-6 w-6" />
           <span className="text-xl font-bold">Kicks Klinik</span>
         </Link>
-        <span className="hidden text-sm text-muted-foreground md:inline-block">Revive. Restore. Reimagine.</span>
+        
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6">
