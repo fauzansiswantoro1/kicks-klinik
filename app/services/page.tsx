@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Check } from "lucide-react"
+import Link from "next/link"
 
 export default function ServicesPage() {
   return (
@@ -339,7 +340,12 @@ export default function ServicesPage() {
                 Call us today and let our experts take care of your prized sneaker collection.
               </p>
             </div>
-            
+            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              
+              <Button size="lg" variant="secondary">
+                <Link href="https://wa.me/6281296238548">Contact Us</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>

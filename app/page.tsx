@@ -300,7 +300,12 @@ export default function Home() {
                 Call us today and let our experts take care of your prized sneaker collection.
               </p>
             </div>
-           
+            <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              
+              <Button size="lg" variant="secondary">
+                <Link href="https://wa.me/6281296238548">Contact Us</Link>
+              </Button>
+            </div>
           </div>
         </div>
       </section>
