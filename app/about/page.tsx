@@ -121,11 +121,11 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold">Fauzan Siswantoro</h3>
-                  <p className="text-sm text-muted-foreground">Founder & Creative Director</p>
+                  <p className="text-sm text-muted-foreground">Founder, Creative Director, & IT Lead</p>
                 </div>
                 <p className="text-muted-foreground text-sm">
-                  Fauzan leads our customization department, combining her IT background with a passion for
-                  sneaker culture to create unique content and website.
+                  Fauzan leads our customization department, combining his IT background with a passion for
+                  sneaker culture to create unique content and website to provide the bussiness needs.
                 </p>
               </CardContent>
             </Card>
@@ -200,7 +200,7 @@ export default function AboutPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/team-photo.jpg"
+                src="/team-photo2.jpg"
                 width={400}
                 height={400}
                 alt="Kicks Klinik team working"

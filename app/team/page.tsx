@@ -226,7 +226,7 @@ export default function TeamPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/team-photo.jpg"
+                src="/team-photo3.jpg"
                 width={600}
                 height={400}
                 alt="Team together"
