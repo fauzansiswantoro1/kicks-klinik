@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Mail, Phone, Linkedin, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 import Link from "next/link"
 
 interface TeamMember {
@@ -113,10 +113,7 @@ export default function TeamPage() {
                           <span className="text-xs sm:text-sm truncate">{`${member.location.city}, ${member.location.country}`}</span>
                         </div>
                       </div>
-                      <Button variant="outline" size="sm" className="w-full gap-1">
-                        <Linkedin className="h-4 w-4" />
-                        Connect
-                      </Button>
+                      
                     </div>
                   </CardContent>
                 </Card>

@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Kicks Klinik | Premium Sneaker Care",
   description: "Professional sneaker cleaning, restoration, and customization services",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
